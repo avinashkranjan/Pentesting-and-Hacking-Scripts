@@ -1,0 +1,3 @@
+Installing, Understanding and Exploring the functionalities of sqlmap
+Use inside Kali Linux installed in VMWare
+Test Site : testphp.vulnweb.com – acuart site
