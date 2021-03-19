@@ -1,0 +1,1 @@
+python3-nmap==1.5.0
