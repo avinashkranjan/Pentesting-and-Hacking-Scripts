@@ -1,5 +1,3 @@
 urllib3
 requests
-sys
-time
 colorama
