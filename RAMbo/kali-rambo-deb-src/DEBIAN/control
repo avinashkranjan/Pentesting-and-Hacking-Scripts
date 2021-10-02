@@ -1,0 +1,7 @@
+Package: kali-rambo
+Version: 1.2.2.2
+Architecture: all
+Short-Description: Shh! RAMBO is Pandora
+Maintainer: Und3rf10w
+Maintainer just by name: c0sm0void
+Description: Parrot stealth script, ported to work with Kali Linux
