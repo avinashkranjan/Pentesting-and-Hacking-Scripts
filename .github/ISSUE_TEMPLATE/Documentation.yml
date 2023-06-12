@@ -24,7 +24,7 @@ body:
       description: Is there anything else we should know about this issue?
     validations:
       required: false
-   - type: checkboxes
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
