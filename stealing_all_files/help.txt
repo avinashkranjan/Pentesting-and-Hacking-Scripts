@@ -1,0 +1,15 @@
+This script is a cybersecurity toolthat has been designed with the purpose of stealing all the information and the files of a computer using an USB device.
+
+This tool has been created and designed by Pablo Corbalán De Concepción, You can find me on github as@pblcc or in Twitter as @pablocorbcon.
+
+For running this application, you should use:
+
+  python script.py [options]
+
+The optional options of the application are:
+
+  -h: Displays helpt about the app
+  -l: Displays the license of this application.
+  -p <path>: The path to steal the files from by default it's the root.
+  -o <output>: The output file, by default it's the path. 
+  -rw: Removes writting permissions.

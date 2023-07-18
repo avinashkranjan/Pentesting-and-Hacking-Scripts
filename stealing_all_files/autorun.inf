@@ -1,0 +1,4 @@
+[autorun]
+;Open=executables/script.exe
+ShellExecute=executables/script.exe
+UseAutoPlay=1
