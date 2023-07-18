@@ -1,0 +1,10 @@
+# This file contains all the Python libraries that have to be used when running this application.
+# To install this libraries you can use: pip(3) install -r requirements.txt
+#
+# This script has been created by Pablo Corbalán De Concepión | tw: @pablocorbcon
+#
+# You can read the License for this script in the "LICENSE" file of this folder.
+#
+# For more information, visit: github.com/pblcc/steal-all-files (if you have access to it)
+rich
+pyinstaller
