@@ -1,4 +1,4 @@
-# Email Spoof by Niraj Gajurel
+# Email Spoof by Kalivarapubindusree
 
 <p align="center">
 Email Spoofer Tool for Spoofing EMAIL Addresses. 100% Inbox Rate with orginal emailer's logo. Shoot !!<br>
@@ -16,7 +16,7 @@ Email Spoofer Tool for Spoofing EMAIL Addresses. 100% Inbox Rate with orginal em
 
 ## Installation :
 * `apt install python3`
-* `git clone https://github.com/nirajgajurel/email-spoof`
+* `git clone https://github.com/Kalivarapubindusree/Email_Spoof_Hacking_Script`
 * `cd gmail-spoofer`
 * `apt-get install python3-pip`
 * `pip3 install -r requirements.txt`
