@@ -1,0 +1,4 @@
+win32
+wmi
+os
+python3
