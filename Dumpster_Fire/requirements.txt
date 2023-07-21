@@ -1,0 +1,4 @@
+python_version >= "3.6"
+requests == 2.26.0
+importlib_metadata == 4.8.1
+pytz == 2021.3
