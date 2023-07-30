@@ -1,0 +1,15 @@
+name: Linting with black
+
+on: [push, pull_request]
+
+jobs:
+
+  black-linting:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - uses: psf/black@stable
