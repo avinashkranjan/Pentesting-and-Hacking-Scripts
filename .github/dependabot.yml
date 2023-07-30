@@ -1,6 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "npm"
+    labels:
+      - 📦 dependencies
+    directory: "/"
+    commit-message:
+      prefix: "chore(deps)"
     schedule:
-      interval: 'daily'
+      interval: "daily"
