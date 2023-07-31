@@ -1,4 +1,5 @@
 from tkinter import *
+
 """
 This module helps us to have a hovering effect on any
 widget in tkinter. It helps in giving the user info about
@@ -9,7 +10,6 @@ link - https://cutt.ly/fhzdiqy
 
 
 class ToolTip(object):
-
     def __init__(self, widget):
         self.widget = widget
         self.tipwindow = None
@@ -27,9 +27,15 @@ class ToolTip(object):
         self.tipwindow = tw = Toplevel(self.widget)
         tw.wm_overrideredirect(1)
         tw.wm_geometry("+%d+%d" % (x, y))
-        label = Label(tw, text=self.text, justify=LEFT,
-                      background="#ffffe0", relief=SOLID, borderwidth=1,
-                      font=("Cascadia Mono", "10", "normal"))
+        label = Label(
+            tw,
+            text=self.text,
+            justify=LEFT,
+            background="#ffffe0",
+            relief=SOLID,
+            borderwidth=1,
+            font=("Cascadia Mono", "10", "normal"),
+        )
         label.pack(ipadx=1)
 
     def hidetip(self):
@@ -49,5 +55,5 @@ def CreateToolTip(widget, text):
     def leave(event):
         toolTip.hidetip()
 
-    widget.bind('<Enter>', enter)
-    widget.bind('<Leave>', leave)
+    widget.bind("<Enter>", enter)
+    widget.bind("<Leave>", leave)
